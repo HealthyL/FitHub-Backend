@@ -5,5 +5,5 @@ namespace fithub_backend.ProductsManagement.Domain.Repositories;
 
 public interface IAlimentationProductRepository: IBaseRepository<AlimentationProduct>
 {
-    Task<IEnumerable<AlimentationProduct>> FindByAlimentationProductIdAsync(Guid productId);
+    Task<AlimentationProduct?> FindByAlimentationProductIdAsync(int id);
 }
