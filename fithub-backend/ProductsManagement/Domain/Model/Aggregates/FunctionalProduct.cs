@@ -9,6 +9,8 @@ public class FunctionalProduct
     public String Description { get; private set; }
     public String Price { get; private set; }
     public String PhotoUrl { get; private set; }
+    
+    
 
     protected FunctionalProduct()
     {

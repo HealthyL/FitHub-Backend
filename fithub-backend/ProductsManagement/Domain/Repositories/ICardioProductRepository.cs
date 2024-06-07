@@ -7,5 +7,4 @@ public interface ICardioProductRepository: IBaseRepository<CardioProduct>
 {
     Task<CardioProduct?> FindByNameAsync(String name);
     Task<IEnumerable<CardioProduct>> GetAllAsync();
-    Task<CardioProduct?> Handle(int id);
 }

@@ -1,4 +1,5 @@
 using fithub_backend.ProductsManagement.Application.Internal.CommandService;
+using fithub_backend.ProductsManagement.Application.Internal.QueryService;
 using fithub_backend.ProductsManagement.Domain.Repositories;
 using fithub_backend.ProductsManagement.Domain.Services;
 using fithub_backend.ProductsManagement.Infraestructure.Repositories;
@@ -52,6 +53,10 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IAlimentationProductRepository, AlimentationProductsRepository>();
 builder.Services.AddScoped<IAlimentationProductCommandService, AlimentationProductCommandService>();
 builder.Services.AddScoped<IAlimentationProductQueryService, AlimentationProductQueryService>();
+
+builder.Services.AddScoped<ICardioProductRepository, CardioProductsRepository>();
+builder.Services.AddScoped<ICardioProductCommandService, CardioProductCommandService>();
+builder.Services.AddScoped<ICardioProductQueryService, CardioProductQueryService>();
 
 var app = builder.Build();
 

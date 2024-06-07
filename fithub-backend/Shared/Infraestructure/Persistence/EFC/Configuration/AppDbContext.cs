@@ -18,6 +18,8 @@ public class AppDbContext(DbContextOptions options) : DbContext(options)
         base.OnModelCreating(builder);
         //LOGICA BOUNDED
         builder.Entity<AlimentationProduct>().ToTable("AlimentationProduct");
+        builder.Entity<CardioProduct>().ToTable("CardioProduct");
+        
         builder.Entity<AlimentationProduct>().HasKey(f => f.Id);
         builder.Entity<AlimentationProduct>().Property(f => f.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<AlimentationProduct>().Property(f => f.Name).IsRequired();
@@ -25,8 +27,16 @@ public class AppDbContext(DbContextOptions options) : DbContext(options)
         builder.Entity<AlimentationProduct>().Property(f=>f.Price).IsRequired();
         builder.Entity<AlimentationProduct>().Property(f=>f.PhotoUrl).IsRequired();
         builder.Entity<AlimentationProduct>().Property(f=>f.Category).IsRequired();
-
-    builder.UseSnakeCaseNamingConvention();
+        
+        builder.Entity<CardioProduct>().HasKey(f => f.Id);
+        builder.Entity<CardioProduct>().Property(f => f.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<CardioProduct>().Property(f => f.Name).IsRequired();
+        builder.Entity<CardioProduct>().Property(f=>f.Description).IsRequired();
+        builder.Entity<CardioProduct>().Property(f=>f.Price).IsRequired();
+        builder.Entity<CardioProduct>().Property(f=>f.PhotoUrl).IsRequired();
+        builder.Entity<CardioProduct>().Property(f => f.Category).IsRequired();
+        
+        builder.UseSnakeCaseNamingConvention();
         
     }
     
