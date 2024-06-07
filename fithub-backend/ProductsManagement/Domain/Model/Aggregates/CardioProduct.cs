@@ -30,7 +30,7 @@ public class CardioProduct
         this.Category=command.Category;
     }
 
-    public void Update(UpdateAlimentationProductCommand command)
+    public void Update(UpdateCardioProductCommand command)
     {
         this.Name=command.Name;
         this.Description=command.Description;

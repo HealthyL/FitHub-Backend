@@ -1,4 +1,5 @@
 ﻿using System.Net.Mime;
+using fithub_backend.ProductsManagement.Domain.Model.Commands;
 using fithub_backend.ProductsManagement.Domain.Model.Queries;
 using fithub_backend.ProductsManagement.Domain.Services;
 using fithub_backend.ProductsManagement.Interfaces.REST.Resources;
@@ -38,5 +39,22 @@ public class CardioProductController (ICardioProductCommandService cardioProduct
         var result = await cardioProductQueryService.Handle(new GetAllCardioProductQuery());
         var resource = result.Select(CardioProductResourceFromEntityToAssembler.ToResourceFromEntity);
         return Ok(resource);
+    }
+    [HttpPut("{id}")]
+    public async Task<ActionResult> UpdateCardioProduct(int id, [FromBody] UpdateCardioProductResource resource)
+    {
+        var updateCardioProductCommand = 
+            UpdateCardioProductCommandFromResourceAssembler.ToCommandFromResource(resource);
+        var result = await cardioProductCommandService.Handle(updateCardioProductCommand);
+        if (result is null) return NotFound();
+        return Ok();
+    }
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> DeleteCardioProduct(int id)
+    {
+        var deleteCardioProductCommand = new DeleteCardioProductCommand(id);
+        var result = await cardioProductCommandService.Handle(deleteCardioProductCommand);
+        if (result is null) return NotFound();
+        return Ok();
     }
 }

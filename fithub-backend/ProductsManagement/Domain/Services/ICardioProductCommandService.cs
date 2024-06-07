@@ -6,4 +6,6 @@ namespace fithub_backend.ProductsManagement.Domain.Services;
 public interface ICardioProductCommandService
 {
     Task<CardioProduct> Handle(CreateCardioProductCommand command);
+    Task<CardioProduct> Handle(UpdateCardioProductCommand command);
+    Task<CardioProduct> Handle(DeleteCardioProductCommand command);
 }

@@ -26,4 +26,36 @@ public class CardioProductCommandService(ICardioProductRepository cardioProductR
         }
         return cardioProduct;
     }
+    public async Task<CardioProduct> Handle(DeleteCardioProductCommand command)
+    {
+        var cardioProduct = await cardioProductRepository.FindByIdAsync(command.Id);
+        if (cardioProduct == null)
+            throw new Exception("Cardio product not found");
+        try
+        {
+            cardioProductRepository.Remove(cardioProduct);
+            await unitOfWork.CompleteAsync();
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
+        return cardioProduct;
+    }
+    public async Task<CardioProduct> Handle(UpdateCardioProductCommand command)
+    {
+        var cardioProduct = await cardioProductRepository.FindByIdAsync(command.Id);
+        if (cardioProduct == null)
+            throw new Exception("Cardio product not found");
+        cardioProduct.Update(command);
+        try
+        {
+            await unitOfWork.CompleteAsync();
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
+        return cardioProduct;
+    }
 }
