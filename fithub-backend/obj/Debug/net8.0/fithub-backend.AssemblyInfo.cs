@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fithub-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a01437c88d8cd23d04c495085d207cd6b3d2e59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+731b1adb4aded88fefe07a0d56bc3e2bb77a6ebc")]
 [assembly: System.Reflection.AssemblyProductAttribute("fithub-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fithub-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,6 +9,8 @@ public class CardioProduct
     public String Description { get; private set; }
     public String Price { get; private set; }
     public String PhotoUrl { get; private set; }
+    
+    public String Category { get; private set; }
 
     protected CardioProduct()
     {
@@ -16,6 +18,7 @@ public class CardioProduct
         this.Description=string.Empty;
         this.Price=string.Empty;
         this.PhotoUrl=string.Empty;
+        this.Category = string.Empty;
     }
 
     public CardioProduct(CreateCardioProductCommand command)
@@ -24,5 +27,6 @@ public class CardioProduct
         this.Description=command.Description;
         this.Price=command.Price;
         this.PhotoUrl=command.PhotoUrl;
+        this.Category=command.Category;
     }
 }
