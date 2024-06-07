@@ -41,4 +41,21 @@ public class AlimentationProductController(IAlimentationProductCommandService al
         var resource = result.Select(AlimentationProductResourceFromEntityToAssembler.ToResourceFromEntity);
         return Ok(resource);
     }
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> DeleteAlimentationProduct(int id)
+    {
+        var deleteAlimentationProductCommand = new DeleteAlimentationProductCommand(id);
+        var result = await alimentationProductCommandService.Handle(deleteAlimentationProductCommand);
+        if (result is null) return NotFound();
+        return Ok();
+    }
+    [HttpPut("{id}")]
+    public async Task<ActionResult> UpdateAlimentationProduct(int id, [FromBody] UpdateAlimentationProductResource resource)
+    {
+        var updateAlimentationProductCommand =
+            UpdateAlimentationProductCommandFromResourceAssembler.ToCommandFromResource(resource);
+        var result = await alimentationProductCommandService.Handle(updateAlimentationProductCommand);
+        if (result is null) return NotFound();
+        return Ok();
+    }
 }

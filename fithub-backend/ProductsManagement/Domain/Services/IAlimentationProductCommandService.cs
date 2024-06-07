@@ -6,4 +6,6 @@ namespace fithub_backend.ProductsManagement.Domain.Services;
 public interface IAlimentationProductCommandService
 {
     Task<AlimentationProduct?> Handle(CreateAlimentationProductCommand command);
+    Task<AlimentationProduct?> Handle(UpdateAlimentationProductCommand command);
+    Task<AlimentationProduct?> Handle(DeleteAlimentationProductCommand command);
 }

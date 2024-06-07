@@ -26,4 +26,36 @@ public class AlimentationProductCommandService (IAlimentationProductRepository a
         }
         return alimentationProduct;
     }
+    public async Task<AlimentationProduct?> Handle(DeleteAlimentationProductCommand command)
+    {
+        var alimentationProduct = await alimentationProductRepository.FindByIdAsync(command.Id);
+        if (alimentationProduct == null)
+            throw new Exception("Alimentation product not found");
+        try
+        {
+            alimentationProductRepository.Remove(alimentationProduct);
+            await unitOfWork.CompleteAsync();
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
+        return alimentationProduct;
+    }
+    public async Task<AlimentationProduct?> Handle(UpdateAlimentationProductCommand command)
+    {
+        var alimentationProduct = await alimentationProductRepository.FindByIdAsync(command.Id);
+        if (alimentationProduct == null)
+            throw new Exception("Alimentation product not found");
+        alimentationProduct.Update(command);
+        try
+        {
+            await unitOfWork.CompleteAsync();
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
+        return alimentationProduct;
+    }
 }

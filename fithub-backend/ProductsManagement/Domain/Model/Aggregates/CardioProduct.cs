@@ -29,4 +29,13 @@ public class CardioProduct
         this.PhotoUrl=command.PhotoUrl;
         this.Category=command.Category;
     }
+
+    public void Update(UpdateAlimentationProductCommand command)
+    {
+        this.Name=command.Name;
+        this.Description=command.Description;
+        this.Price=command.Price;
+        this.PhotoUrl=command.PhotoUrl;
+        this.Category=command.Category;
+    }
 }

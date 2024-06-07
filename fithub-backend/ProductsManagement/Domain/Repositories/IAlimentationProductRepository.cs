@@ -8,4 +8,6 @@ public interface IAlimentationProductRepository : IBaseRepository<AlimentationPr
 {
     Task<AlimentationProduct?> FindByNameAsync(String name);
     Task<IEnumerable<AlimentationProduct>> GetAllAsync();
+    
+    
 }

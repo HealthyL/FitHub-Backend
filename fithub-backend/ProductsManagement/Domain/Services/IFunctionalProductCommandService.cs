@@ -1,6 +1,9 @@
-﻿namespace fithub_backend.ProductsManagement.Domain.Services;
+﻿using fithub_backend.ProductsManagement.Domain.Model.Aggregates;
+using fithub_backend.ProductsManagement.Domain.Model.Commands;
 
-public class IFunctionalProductCommandService
+namespace fithub_backend.ProductsManagement.Domain.Services;
+
+public interface IFunctionalProductCommandService
 {
-    
+    Task<FunctionalProduct> Handle(CreateFunctionalProductCommand command);
 }

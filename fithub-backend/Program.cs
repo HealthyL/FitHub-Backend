@@ -58,6 +58,10 @@ builder.Services.AddScoped<ICardioProductRepository, CardioProductsRepository>()
 builder.Services.AddScoped<ICardioProductCommandService, CardioProductCommandService>();
 builder.Services.AddScoped<ICardioProductQueryService, CardioProductQueryService>();
 
+builder.Services.AddScoped<IFunctionalProductRepository, FunctionalProductsRepository>();
+builder.Services.AddScoped<IFunctionalProductCommandService, FunctionalProductCommandService>();
+builder.Services.AddScoped<IFunctionalProductQueryService, FunctionalProductQueryService>();
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
