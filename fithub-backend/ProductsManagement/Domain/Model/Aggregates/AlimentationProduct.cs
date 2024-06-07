@@ -9,6 +9,7 @@ public class AlimentationProduct
         public String Description { get; private set; }
         public String Price { get; private set; }
         public String PhotoUrl { get; private set; }
+        public String Category { get; private set; }
 
         protected AlimentationProduct()
         {
@@ -16,6 +17,7 @@ public class AlimentationProduct
                 this.Description=string.Empty;
                 this.Price=string.Empty;
                 this.PhotoUrl=string.Empty;
+                this.Category = string.Empty;
         }
 
         public AlimentationProduct(CreateAlimentationProductCommand command)
@@ -24,5 +26,6 @@ public class AlimentationProduct
               this.Description=command.Description;
               this.Price=command.Price;
               this.PhotoUrl=command.PhotoUrl;
+              this.Category=command.Category;
         }
 }

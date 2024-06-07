@@ -1,9 +1,12 @@
 ﻿using fithub_backend.ProductsManagement.Domain.Model.Aggregates;
+using fithub_backend.ProductsManagement.Domain.Model.Queries;
 using fithub_backend.Shared.Domain.Repositories;
 
 namespace fithub_backend.ProductsManagement.Domain.Repositories;
 
-public interface IAlimentationProductRepository: IBaseRepository<AlimentationProduct>
+public interface IAlimentationProductRepository : IBaseRepository<AlimentationProduct>
 {
-    Task<AlimentationProduct?> FindByAlimentationProductIdAsync(int id);
+    Task<AlimentationProduct?> FindByNameAsync(string name);
+    Task<IEnumerable<AlimentationProduct>> GetAllAsync();
+    Task<AlimentationProduct?> Handle(int id);
 }

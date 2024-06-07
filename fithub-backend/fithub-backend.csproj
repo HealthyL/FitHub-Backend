@@ -12,14 +12,8 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.4" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6" />
+        <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.2" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="ProductsManagement\Application\Internal\CommandService\" />
-      <Folder Include="ProductsManagement\Application\Internal\QueryService\" />
-      <Folder Include="ProductsManagement\Interfaces\REST\Resources\" />
-      <Folder Include="ProductsManagement\Interfaces\REST\Transform\" />
     </ItemGroup>
 
 </Project>

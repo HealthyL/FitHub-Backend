@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "acIJRZtnXC8WDURoccBEGlauPOtKby1HcwFnrw36X7U=",
+  "Source": "fithub-backend",
+  "BasePath": "_content/fithub-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
