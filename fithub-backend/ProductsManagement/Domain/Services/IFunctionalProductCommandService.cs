@@ -6,4 +6,6 @@ namespace fithub_backend.ProductsManagement.Domain.Services;
 public interface IFunctionalProductCommandService
 {
     Task<FunctionalProduct> Handle(CreateFunctionalProductCommand command);
+    Task<FunctionalProduct> Handle(UpdateFunctionalProductCommand command);
+    Task<FunctionalProduct> Handle(DeleteFunctionalProductCommand command);
 }

@@ -1,4 +1,5 @@
 ﻿using fithub_backend.ProductsManagement.Domain.Model.Commands;
+using Mysqlx.Crud;
 
 namespace fithub_backend.ProductsManagement.Domain.Model.Aggregates;
 
@@ -28,5 +29,14 @@ public class FunctionalProduct
         this.Price=command.Price;
         this.PhotoUrl=command.PhotoUrl;
         this.Category=command.Category;
+    }
+
+    public void Update(UpdateFunctionalProductCommand command)
+    {
+        this.Name = command.Name;
+        this.Description = command.Description;
+        this.Price = command.Price;
+        this.PhotoUrl = command.PhotoUrl;
+        this.Category = command.Category;
     }
 }

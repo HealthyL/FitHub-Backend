@@ -1,4 +1,5 @@
 ﻿using System.Net.Mime;
+using fithub_backend.ProductsManagement.Domain.Model.Commands;
 using fithub_backend.ProductsManagement.Domain.Model.Queries;
 using fithub_backend.ProductsManagement.Domain.Repositories;
 using fithub_backend.ProductsManagement.Domain.Services;
@@ -38,5 +39,22 @@ public class FunctionalProductController(IFunctionalProductQueryService function
         if (result is null) return BadRequest();
         return CreatedAtAction(nameof(GetFunctionalProductById), new { id = result.Id },
             FunctionalProductResourceFromEntityToAssembler.ToResourceFromEntity(result));
+    }
+    [HttpPut("{id}")]
+    public async Task<ActionResult> UpdateFunctionalProduct(int id, [FromBody] UpdateFunctionalProductResource resource)
+    {
+        var updateFunctionalProductCommand =
+            UpdateFunctionalProductCommandFromResourceAssembler.ToCommandFromResource(resource);
+        var result = await functionalProductCommandService.Handle(updateFunctionalProductCommand);
+        if (result is null) return BadRequest();
+        return Ok(FunctionalProductResourceFromEntityToAssembler.ToResourceFromEntity(result));
+    }
+    [HttpDelete("{id}")]
+    public async Task<ActionResult> DeleteFunctionalProduct(int id)
+    {
+        var deleteFunctionalProductCommand = new DeleteFunctionalProductCommand(id);
+        var result = await functionalProductCommandService.Handle(deleteFunctionalProductCommand);
+        if (result is null) return NotFound();
+        return Ok(FunctionalProductResourceFromEntityToAssembler.ToResourceFromEntity(result));
     }
 }

@@ -26,4 +26,37 @@ public class FunctionalProductCommandService(IFunctionalProductRepository functi
         }
         return functionalProduct;
     }
+    public async Task<FunctionalProduct> Handle(UpdateFunctionalProductCommand command)
+    {
+        var functionalProduct = await functionalProductRepository.FindByIdAsync(command.Id);
+        if (functionalProduct == null)
+            throw new Exception("Functional product not found");
+        functionalProduct.Update(command);
+        try
+        {
+            functionalProductRepository.Update(functionalProduct);
+            await unitOfWork.CompleteAsync();
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
+        return functionalProduct;
+    }
+    public async Task<FunctionalProduct> Handle(DeleteFunctionalProductCommand command)
+    {
+        var functionalProduct = await functionalProductRepository.FindByIdAsync(command.Id);
+        if (functionalProduct == null)
+            throw new Exception("Functional product not found");
+        try
+        {
+            functionalProductRepository.Remove(functionalProduct);
+            await unitOfWork.CompleteAsync();
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
+        return functionalProduct;
+    }
 }
