@@ -6,4 +6,5 @@ namespace fithub_backend.NutritionManagement.Domain.Services;
 public interface IDinnerItemQueryService
 {
     Task<IEnumerable<DinnerItem>> Handle(GetAllDinnerItemsQuery query);
+    Task<DinnerItem?> Handle(GetDinnerItemByIdQuery query);
 }

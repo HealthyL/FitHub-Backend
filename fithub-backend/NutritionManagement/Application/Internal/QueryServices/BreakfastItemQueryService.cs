@@ -5,7 +5,8 @@ using fithub_backend.NutritionManagement.Domain.Services;
 
 namespace fithub_backend.NutritionManagement.Application.Internal.QueryServices;
 
-public class BreakfastItemQueryService(IBreakfastItemRepository breakfastItemRepository): IBreakfastItemQueryService
+public class BreakfastItemQueryService(IBreakfastItemRepository breakfastItemRepository)
+    : IBreakfastItemQueryService
 {
     public async Task<BreakfastItem?> Handle(GetBreakfastItemByIdQuery query)
     {

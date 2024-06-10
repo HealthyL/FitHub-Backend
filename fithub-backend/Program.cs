@@ -54,6 +54,14 @@ builder.Services.AddScoped<IBreakfastItemRepository, BreakfastItemsRepository>()
 builder.Services.AddScoped<IBreakfastItemCommandService, BreakfastItemCommandService>();
 builder.Services.AddScoped<IBreakfastItemQueryService, BreakfastItemQueryService>();
 
+builder.Services.AddScoped<IDinnerItemRepository, DinnerItemsRepository>();
+builder.Services.AddScoped<IDinnerItemCommandService, DinnerItemCommandService>();
+builder.Services.AddScoped<IDinnerItemQueryService, DinnerItemQueryService>();
+
+builder.Services.AddScoped<ILunchItemRepository, LunchItemsRepository>();
+builder.Services.AddScoped<ILunchItemCommandService, LunchItemCommandService>();
+builder.Services.AddScoped<ILunchItemQueryService, LunchItemQueryService>();
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
