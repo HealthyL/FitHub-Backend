@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1" date="1718012698776" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 10/06/2024 04:44 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="fithub-backend/obj/Debug/net8.0/fithub-backend.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="fithub-backend/obj/Debug/net8.0/fithub-backend.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/fithub-backend.AssemblyInfoInputs.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="fithub-backend/obj/Debug/net8.0/fithub-backend.assets.cache" />
+    <option name="AFTER_PATH" value="fithub-backend/obj/Debug/net8.0/fithub-backend.assets.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/fithub-backend.assets.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="fithub-backend/obj/Debug/net8.0/fithub-backend.csproj.AssemblyReference.cache" />
+    <option name="AFTER_PATH" value="fithub-backend/obj/Debug/net8.0/fithub-backend.csproj.AssemblyReference.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/fithub-backend.csproj.AssemblyReference.cache" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="fithub-backend/obj/project.nuget.cache" />
+    <option name="AFTER_PATH" value="fithub-backend/obj/project.nuget.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/project.nuget.cache" />
+  </binary>
+</changelist>
