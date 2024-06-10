@@ -11,4 +11,19 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Security\Application\Internal\CommandServices\" />
+      <Folder Include="Security\Application\Internal\QueryServices\" />
+      <Folder Include="Security\Domain\Model\Commands\" />
+      <Folder Include="Security\Domain\Model\Queries\" />
+      <Folder Include="Security\Domain\Repositories\" />
+      <Folder Include="Security\Domain\Services\" />
+      <Folder Include="Security\Infraestructure\Persisitence\JPA\Repositories\" />
+      <Folder Include="Security\Interfaces\Rest\Resources\" />
+      <Folder Include="Security\Interfaces\Rest\Transform\" />
+      <Folder Include="Shared\Domain\Repositories\" />
+      <Folder Include="Shared\Infraestructure\Interfaces\ASP\Confiration\Extensions\" />
+      <Folder Include="Shared\Infraestructure\Persistence\EFC\Configuration\Extensions\" />
+    </ItemGroup>
+
 </Project>
