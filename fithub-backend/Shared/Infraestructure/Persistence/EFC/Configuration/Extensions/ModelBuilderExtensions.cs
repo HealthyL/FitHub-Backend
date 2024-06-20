@@ -2,16 +2,15 @@
 
 namespace fithub_backend.Shared.Infraestructure.Persistence.EFC.Configuration.Extensions;
 
-
-
 public static class ModelBuilderExtensions
 {
-    public static void UseSnakeCaseNamingConvention(this ModelBuilder builder)
+    public static void UseSnakeCaseWithPluralizedTableNamingConvention(this ModelBuilder builder)
     {
         foreach (var entity in builder.Model.GetEntityTypes())
         {
             var tableName = entity.GetTableName();
-            if (!string.IsNullOrEmpty(tableName)) entity.SetTableName(tableName.ToSnakeCase());
+            if (!string.IsNullOrEmpty(tableName))
+                entity.SetTableName(tableName.ToPlural().ToSnakeCase());
 
             foreach (var property in entity.GetProperties())
                 property.SetColumnName(property.GetColumnName().ToSnakeCase());
@@ -22,14 +21,15 @@ public static class ModelBuilderExtensions
                 if (!string.IsNullOrEmpty(keyName)) key.SetName(keyName.ToSnakeCase());
             }
             
-            foreach (var foreignKey in entity.GetForeignKeys())
+            foreach (var foreignKey  in entity.GetForeignKeys())
             {
                 var foreignKeyConstraintName = foreignKey.GetConstraintName();
                 if (!string.IsNullOrEmpty(foreignKeyConstraintName)) 
                     foreignKey.SetConstraintName(foreignKeyConstraintName.ToSnakeCase());
             }
             
-            foreach (var index in entity.GetIndexes())
+                        
+            foreach (var index  in entity.GetIndexes())
             {
                 var indexDatabaseName = index.GetDatabaseName();
                 if (!string.IsNullOrEmpty(indexDatabaseName)) 
@@ -37,5 +37,4 @@ public static class ModelBuilderExtensions
             }
         }
     }
-    
 }

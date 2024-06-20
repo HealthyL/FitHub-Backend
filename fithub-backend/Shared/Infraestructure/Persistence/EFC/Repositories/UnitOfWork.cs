@@ -5,15 +5,8 @@ namespace fithub_backend.Shared.Infraestructure.Persistence.EFC.Repositories;
 
 public class UnitOfWork : IUnitOfWork
 {
-    private readonly AppDbContext _context;
+    private readonly AppDBContext _context;
+    public UnitOfWork(AppDBContext context) => _context = context;
 
-    public UnitOfWork(AppDbContext context)
-    {
-        _context = context;
-    }
-
-    public async Task CompleteAsync()
-    {
-        await _context.SaveChangesAsync();
-    }
+    public async Task CompleteAsync() => await _context.SaveChangesAsync();
 }
