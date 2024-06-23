@@ -9,101 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31f80bcd-bd3e-42c4-97d3-a8c1444e4ba3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/Aggregates/Profile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/Aggregates/ProfileAudit.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/Commands/CreateProfileCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/Queries/GetAllProfilesQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/Queries/GetProfileByEmailQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/Queries/GetProfileByIdQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/ValueObjects/BirthDate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/ValueObjects/ObjectiveSelected.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/ValueObjects/PersonName.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Repositories/IProfileRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Services/IProfileCommandService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Services/IProfileQueryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Infraestructure/Persistence/EFC/Repositories/ProfileRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Interfaces/REST/Resources/CreateProfileResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Interfaces/REST/Resources/ProfileResource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Interfaces/REST/Transform/CreateProfileCommandFromResourceAssembler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Interfaces/REST/Transform/ProfileResourceFromEntityAssembler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/fithub-backend.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/fithub-backend.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/fithub-backend.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_06_2024_04_44_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Application/Internal/CommandServices/ProfileCommandService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Application/Internal/CommandService/ProfileCommandService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Application/Internal/QueryServices/ProfileQueryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Application/Internal/QueryService/ProfileQueryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Model/Aggregates/Profile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Model/Aggregates/ProfileAudit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Model/Commands/CreateProfileCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Model/Queries/GetAllProfilesQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Model/Queries/GetProfileByEmailQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Model/Queries/GetProfileByIdQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Model/ValueObjets/EmailAddress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Domain/Model/ValueObjects/EmailAddress.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Model/ValueObjets/ProfileAddress.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Model/ValueObjets/ProfileName.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Repositories/IProfileRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Services/IProfileCommandService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Domain/Services/IProfileQueryService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Infrastructure/Persistence/EFC/Repositories/ProfileRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Interfaces/REST/ProfileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/Profiles/Interfaces/REST/ProfilesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Interfaces/REST/Resources/CreateProfileResource.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Interfaces/REST/Resources/ProfileResource.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Interfaces/REST/Transform/CreateProfileCommandFromResourceAssembler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/ProfileManagement/Interfaces/REST/Transform/ProfileResourceFromEntityAssembler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Domain/Repositories/IBaseRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Domain/Repositories/IUnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Domain/Services/Communication/BaseResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Extensions/ModelBuilderExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Extensions/ModelStateExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Extensions/StringExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Infraestructure/Persistence/EFC/Configuration/AppDBContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Infraestructure/Persistence/EFC/Configuration/Extensions/ModelBuilderExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Infraestructure/Persistence/EFC/Configuration/Extensions/StringExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Infraestructure/Persistence/EFC/Repositories/BaseRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Infraestructure/Persistence/EFC/Repositories/UnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Interfaces/ASP/Configuration/Extensions/StringExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Interfaces/ASP/Configuration/KebabCaseRouteNamingConvention.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Persistence/Contexts/AppDbContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Persistence/Repositories/BaseRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/Shared/Persistence/Repositories/UnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/account_manager/BackEnd-fithub.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/account_manager/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/account_manager/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/account_manager/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/bin/Debug/net8.0/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/bin/Debug/net8.0/fithub-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/bin/Debug/net8.0/fithub-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/bin/Debug/net8.0/fithub-backend.exe" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/bin/Debug/net8.0/fithub-backend.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/bin/Debug/net8.0/fithub-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/bin/Debug/net8.0/fithub-backend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/fithub-backend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/fithub-backend.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/fithub-backend.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/ref/fithub-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/ref/fithub-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/refint/fithub-backend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/Debug/net8.0/refint/fithub-backend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/fithub-backend.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/fithub-backend.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/fithub-backend.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/fithub-backend.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fithub-backend/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/fithub-backend/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="31f80bcd-bd3e-42c4-97d3-a8c1444e4ba3" name="Changes" comment="backend" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,39 +19,51 @@
     <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/BruceCipriano" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Bruce/RiderProjects/FitHub-Backend/fithub-backend/Shared/Infraestructure/Persistence/EFC/Configuration/AppDBContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2iClrnszmuxCAWxuh9VGcTTSsvi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.fithub-backend: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/BruceCipriano&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jimen/Desktop/FitHub-Backend-bruceeeee/FitHub-Backend/fithub-backend.sln&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.fithub-backend: http.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/BruceCipriano",
+    "last_opened_file_path": "C:/Users/jimen/Desktop/FitHub-Backend-bruceeeee/FitHub-Backend/fithub-backend.sln",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\jimen\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\jimen\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\jimen\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\jimen\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\jimen\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\jimen\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.fithub-backend: http">
     <configuration name="fithub-backend: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/fithub-backend/fithub-backend.csproj" />
@@ -206,6 +124,23 @@
       <workItem from="1719030714287" duration="1307000" />
       <workItem from="1719161484594" duration="45000" />
     </task>
+    <task id="LOCAL-00001" summary="backend">
+      <option name="closed" value="true" />
+      <created>1719184362139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719184362139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="backend">
+      <option name="closed" value="true" />
+      <created>1719184417637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719184417637</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +149,9 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend" />
   </component>
 </project>
