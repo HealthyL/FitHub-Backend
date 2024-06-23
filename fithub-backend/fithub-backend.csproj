@@ -19,4 +19,9 @@
         <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="account_manager\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="account_manager\appsettings.json" />
+    </ItemGroup>
+
 </Project>

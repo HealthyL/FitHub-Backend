@@ -1,11 +1,9 @@
-
-using fithub_backend.ProfileManagement.Application.Internal.CommandServices;
-using fithub_backend.ProfileManagement.Application.Internal.QueryServices;
-using fithub_backend.ProfileManagement.Domain.Repositories;
-using fithub_backend.ProfileManagement.Domain.Services;
-using fithub_backend.ProfileManagement.Infrastructure.Persistence.EFC.Repositories;
+using fithub_backend.Profiles.Application.Internal.CommandService;
+using fithub_backend.Profiles.Application.Internal.QueryService;
+using fithub_backend.Profiles.Domain.Repositories;
+using fithub_backend.Profiles.Domain.Services;
+using fithub_backend.Profiles.Infraestructure.Persistence.EFC.Repositories;
 using fithub_backend.Shared.Domain.Repositories;
-using fithub_backend.Shared.Infraestructure.Interfaces.ASP.Configuration;
 using fithub_backend.Shared.Infraestructure.Persistence.EFC.Configuration;
 using fithub_backend.Shared.Infraestructure.Persistence.EFC.Repositories;
 using Microsoft.EntityFrameworkCore;
