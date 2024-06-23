@@ -9,6 +9,11 @@ namespace fithub_backend.ProductsManagement.Infraestructure.Persistence.EFC.Repo
 public class CategoryRepository(AppDBContext context): BaseRepository<Category>(context),
     ICategoryRepository
 {
+    public async Task<bool> ExistsByNameAsync(string name)
+    {
+        return await Context.Set<Category>().AnyAsync(category => category.Name == name);
+    }
+    
     public async Task<bool> ExistsByIdAsync(int categoryId)
     {
         return await Context.Set<Category>().AnyAsync(category => category.Id == categoryId);

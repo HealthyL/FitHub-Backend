@@ -24,14 +24,13 @@ public class CategoriesController( ICategoryCommandService categoryCommandServic
     public async Task<IActionResult> CreateCategory([FromBody] CreateCategoryResource createCategoryResource)
     {
         var createCategoryCommand =
-            CreateCategoryCommandFromResourceAssembler.toCommandFromResource(createCategoryResource);
+            CreateCategoryCommandFromResourceAssembler.
+                toCommandFromResource(createCategoryResource);
         var category = await categoryCommandService.Handle(createCategoryCommand);
         if (category is null) return BadRequest();
         var resource = CategoryResourceFromEntityAssembler.toResourceFromEntity(category);
         return CreatedAtAction(nameof(CreateCategory), new { categoryId = resource.Id }, resource);
     }
-
-
     [HttpGet]
     public async Task<IActionResult> GetAllCategories()
     {

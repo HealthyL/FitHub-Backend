@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t1sF9hwIeYkExIE7AIiVBhuZYDt3HxGdXHO+C/XI5ZO9fLkPdI81ZH7W+rumThtU/3Bz2MzNEXrMt7mxr/l6pQ==",
+  "dgSpecHash": "q/MQ/ImralvPv1CxnvJflQtktgV5snkh5I//txWGUr9KO7UmVfVnI4QJN42CRHrVa7ClU2rpG38Y4F8czZKlcg==",
   "success": true,
-  "projectFilePath": "C:\\Proyectos GitHub\\fithub-backend\\FitHub-Backend\\fithub-backend\\fithub-backend.csproj",
+  "projectFilePath": "C:\\Users\\jimen\\Desktop\\backk\\FitHub-Backend\\fithub-backend\\fithub-backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jimen\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\jimen\\.nuget\\packages\\entityframeworkcore.createdupdateddate\\8.0.0\\entityframeworkcore.createdupdateddate.8.0.0.nupkg.sha512",

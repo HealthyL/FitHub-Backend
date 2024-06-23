@@ -7,6 +7,10 @@ namespace fithub_backend.ProductsManagement.Application.Internal.QueryService;
 
 public class CategoryQueryService(ICategoryRepository categoryRepository) : ICategoryQueryService
 {
+    public async Task<Category?> Handle(GetCategoryByIdQuery query)
+    {
+        return await categoryRepository.FindByIdAsync(query.Id);
+    }
     public async Task<IEnumerable<Category>> Handle(GetAllCategoriesQuery query)
     {
         return await categoryRepository.ListAsync();

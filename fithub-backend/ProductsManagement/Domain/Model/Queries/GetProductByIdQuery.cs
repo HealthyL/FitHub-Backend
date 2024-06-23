@@ -1,3 +1,6 @@
 ﻿namespace fithub_backend.ProductsManagement.Domain.Model.Queries;
 
-public record GetAllProducts();
+public record GetProductByIdQuery (int Id)
+{
+    
+}

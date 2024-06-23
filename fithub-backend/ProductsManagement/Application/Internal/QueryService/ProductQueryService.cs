@@ -8,12 +8,16 @@ namespace fithub_backend.ProductsManagement.Application.Internal.QueryService;
 
 public class ProductQueryService(IProductRepository productRepository, IUnitOfWork unitOfWork) : IProductQueryService
 {
-    public async Task<IEnumerable<Product>> Handle(GetAllProducts query)
+    public async Task<Product?> Handle(GetProductByIdQuery query)
+    {
+        return await productRepository.FindByIdAsync(query.Id);
+    }
+    public async Task<IEnumerable<Product>> Handle(GetAllProductsQuery query)
     {
         return await productRepository.ListAsync();
     }
 
-    public async Task<IEnumerable<Product>> Handle(GetProductByCategoryId query)
+    public async Task<IEnumerable<Product>> Handle(GetProductByCategoryIdQuery query)
     {
         return await productRepository.FindByCategoryIdAsync(query.CategoryId);
     }

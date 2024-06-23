@@ -12,6 +12,9 @@ public class CategoryCommandService(ICategoryRepository categoryRepository,
 {
     public async Task<Category> Handle(CreateCategoryCommand command)
     {
+        var existsByName = await categoryRepository.ExistsByNameAsync(command.Name);
+        if (existsByName) throw new Exception("Category with the same name already exists");
+
         var category = new Category(command.Name);
         await categoryRepository.AddAsync(category);
         await unitOfWork.CompleteAsync();

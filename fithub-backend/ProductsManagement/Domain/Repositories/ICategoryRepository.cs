@@ -6,4 +6,5 @@ namespace fithub_backend.ProductsManagement.Infraestructure.Repositories;
 public interface ICategoryRepository : IBaseRepository<Category>
 {
     Task<bool> ExistsByIdAsync(int categoryId);
+    Task<bool>ExistsByNameAsync(string name);
 }
