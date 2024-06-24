@@ -8,36 +8,21 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
         <PackageReference Include="EntityFrameworkCore.CreatedUpdatedDate" Version="8.0.0" />
         <PackageReference Include="Humanizer" Version="2.14.1" />
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.4" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Relational.Design" Version="1.1.6" />
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0-preview.5.24306.7" />
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.6.0" />
         <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.2" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
         <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.6.2" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="IAM\Application\Internal\CommandServices\" />
-      <Folder Include="IAM\Application\Internal\OutboundServices\" />
-      <Folder Include="IAM\Application\Internal\QueryServices\" />
-      <Folder Include="IAM\Domain\Model\Aggregates\" />
-      <Folder Include="IAM\Domain\Model\Commands\" />
-      <Folder Include="IAM\Domain\Model\Queries\" />
-      <Folder Include="IAM\Domain\Repositories\" />
-      <Folder Include="IAM\Domain\Services\" />
-      <Folder Include="IAM\Infrastructure\Hashing\BCrypt\Services\" />
-      <Folder Include="IAM\Infrastructure\Persistence\EFC\Repositories\" />
-      <Folder Include="IAM\Infrastructure\Pipeline\Middleware\Attributes\" />
-      <Folder Include="IAM\Infrastructure\Pipeline\Middleware\Components\" />
-      <Folder Include="IAM\Infrastructure\Pipeline\Middleware\Extensions\" />
-      <Folder Include="IAM\Infrastructure\Tokens\JWT\Configuration\" />
-      <Folder Include="IAM\Infrastructure\Tokens\JWT\Services\" />
-      <Folder Include="IAM\Interfaces\ACL\Services\" />
-      <Folder Include="IAM\Interfaces\REST\Resources\" />
-      <Folder Include="IAM\Interfaces\REST\Transform\" />
       <Folder Include="ProductsManagement\Domain\Model\Valueobjects\" />
     </ItemGroup>
 
