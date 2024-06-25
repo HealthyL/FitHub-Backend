@@ -12,18 +12,19 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Security\Application\Internal\CommandServices\" />
-      <Folder Include="Security\Application\Internal\QueryServices\" />
-      <Folder Include="Security\Domain\Model\Commands\" />
-      <Folder Include="Security\Domain\Model\Queries\" />
-      <Folder Include="Security\Domain\Repositories\" />
-      <Folder Include="Security\Domain\Services\" />
-      <Folder Include="Security\Infraestructure\Persisitence\JPA\Repositories\" />
-      <Folder Include="Security\Interfaces\Rest\Resources\" />
-      <Folder Include="Security\Interfaces\Rest\Transform\" />
+      <Folder Include="RutinesManagement\Application\Internal\CommandServices\" />
+      <Folder Include="RutinesManagement\Application\Internal\QueryServices\" />
+      <Folder Include="RutinesManagement\Domain\Model\Commands\" />
+      <Folder Include="RutinesManagement\Domain\Model\Entities\" />
+      <Folder Include="RutinesManagement\Domain\Model\Queries\" />
+      <Folder Include="RutinesManagement\Domain\Repositories\" />
+      <Folder Include="RutinesManagement\Domain\Services\" />
+      <Folder Include="RutinesManagement\Infraestructure\Persistence\EFC\Repositories\" />
+      <Folder Include="RutinesManagement\Interfaces\REST\Resources\" />
+      <Folder Include="RutinesManagement\Interfaces\REST\Transform\" />
       <Folder Include="Shared\Domain\Repositories\" />
-      <Folder Include="Shared\Infraestructure\Interfaces\ASP\Confiration\Extensions\" />
       <Folder Include="Shared\Infraestructure\Persistence\EFC\Configuration\Extensions\" />
+      <Folder Include="Shared\Infraestructure\Persistence\EFC\Repositories\" />
     </ItemGroup>
 
 </Project>
