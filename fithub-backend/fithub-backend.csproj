@@ -14,7 +14,6 @@
     <ItemGroup>
       <Folder Include="RutinesManagement\Application\Internal\CommandServices\" />
       <Folder Include="RutinesManagement\Application\Internal\QueryServices\" />
-      <Folder Include="RutinesManagement\Domain\Model\Queries\" />
       <Folder Include="RutinesManagement\Domain\Repositories\" />
       <Folder Include="RutinesManagement\Domain\Services\" />
       <Folder Include="RutinesManagement\Infraestructure\Persistence\EFC\Repositories\" />
