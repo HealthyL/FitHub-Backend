@@ -14,7 +14,6 @@
     <ItemGroup>
       <Folder Include="RutinesManagement\Application\Internal\CommandServices\" />
       <Folder Include="RutinesManagement\Application\Internal\QueryServices\" />
-      <Folder Include="Shared\Infraestructure\Persistence\EFC\Repositories\" />
     </ItemGroup>
 
 </Project>
