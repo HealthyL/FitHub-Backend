@@ -15,7 +15,6 @@
       <Folder Include="RutinesManagement\Application\Internal\CommandServices\" />
       <Folder Include="RutinesManagement\Application\Internal\QueryServices\" />
       <Folder Include="RutinesManagement\Domain\Model\Commands\" />
-      <Folder Include="RutinesManagement\Domain\Model\Entities\" />
       <Folder Include="RutinesManagement\Domain\Model\Queries\" />
       <Folder Include="RutinesManagement\Domain\Repositories\" />
       <Folder Include="RutinesManagement\Domain\Services\" />
