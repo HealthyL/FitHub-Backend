@@ -1,7 +1,8 @@
-﻿using fithub_backend.Shared.Infraestructure.Interfaces.ASP.Configuration.Extensions.Extensions;
+﻿using fithub_backend.Shared.Interfaces.ASP.Configuration.Extensions;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace fithub_backend.Shared.Infraestructure.Interfaces.ASP.Configuration;
+namespace fithub_backend.Shared.Interfaces.ASP.Configuration;
+
 
 public class KebabCaseRouteNamingConvention : IControllerModelConvention
 {

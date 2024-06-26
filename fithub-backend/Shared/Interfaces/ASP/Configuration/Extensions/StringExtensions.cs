@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace fithub_backend.Shared.Infraestructure.Interfaces.ASP.Configuration.Extensions.Extensions;
+namespace fithub_backend.Shared.Interfaces.ASP.Configuration.Extensions;
 
 public static partial class StringExtensions
 {

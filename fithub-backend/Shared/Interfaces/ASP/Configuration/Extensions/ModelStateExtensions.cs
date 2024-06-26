@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace fithub_backend.Shared.Infraestructure.Interfaces.ASP.Configuration.Extensions.Extensions;
+namespace fithub_backend.Shared.Interfaces.ASP.Configuration.Extensions;
 
 public static class ModelStateExtensions
 {

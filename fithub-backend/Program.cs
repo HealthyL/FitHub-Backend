@@ -1,19 +1,20 @@
-using fithub_backend.ProductsManagement.Application.Internal.CommandService;
-using fithub_backend.ProductsManagement.Application.Internal.QueryService;
-using fithub_backend.ProductsManagement.Domain.Services;
-using fithub_backend.ProductsManagement.Infraestructure.Persistence.EFC.Repositories;
-using fithub_backend.ProductsManagement.Infraestructure.Repositories;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.OpenApi.Models;
+using fithub_backend.RutinesManagement.Application.Internal.CommandService;
+using fithub_backend.RutinesManagement.Application.Internal.QueryService;
+using fithub_backend.RutinesManagement.Domain.Repositories;
+using fithub_backend.RutinesManagement.Domain.Services;
+using fithub_backend.RutinesManagement.Infraestructure.Persistence.EFC.Repositories;
 using fithub_backend.Shared.Domain.Repositories;
-using fithub_backend.Shared.Infraestructure.Interfaces.ASP.Configuration;
 using fithub_backend.Shared.Infraestructure.Persistence.EFC.Configuration;
 using fithub_backend.Shared.Infraestructure.Persistence.EFC.Repositories;
-
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllers(options => options.Conventions.Add(new KebabCaseRouteNamingConvention()));
+
 // Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDBContext>(
     options =>
@@ -53,34 +54,17 @@ builder.Services.AddSwaggerGen(
                 }
             });
         c.EnableAnnotations();
-        c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-        {
-            In = ParameterLocation.Header,
-            Description = "Please enter token",
-            Name = "Authorization",
-            Type = SecuritySchemeType.Http,
-            BearerFormat = "JWT",
-            Scheme = "bearer"
-        });
-        
     }
 );
-
 builder.Services.AddRouting(options=>options.LowercaseUrls = true);
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAllPolicy",
-        policy => policy.AllowAnyOrigin()
-            .AllowAnyMethod()
-            .AllowAnyHeader());
-});
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IProductRepository, ProductRepository>();
-builder.Services.AddScoped<IProductCommandService, ProductCommandService>();
-builder.Services.AddScoped<IProductQueryService, ProductQueryService>();
-builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-builder.Services.AddScoped<ICategoryCommandService, CategoryCommandService>();
-builder.Services.AddScoped<ICategoryQueryService, CategoryQueryService>();
+builder.Services.AddScoped<IExerciseRepository, ExerciseRepository>();
+builder.Services.AddScoped<IExerciseCommandService, ExerciseCommandService>();
+builder.Services.AddScoped<IExerciseQueryService, ExerciseQueryService>();
+builder.Services.AddScoped<IRoutineRepository, RoutineRepository>();
+builder.Services.AddScoped<IRoutineCommandService, RoutineCommandService>();
+builder.Services.AddScoped<IRoutineQueryService, RoutineQueryService>();
+
 
 var app = builder.Build();
 
@@ -97,12 +81,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseCors("AllowAllPolicy");
-
-// Add Authorization Middleware to Pipeline
-//app.UseRequestAuthorization();
-
 
 app.UseHttpsRedirection();
 
