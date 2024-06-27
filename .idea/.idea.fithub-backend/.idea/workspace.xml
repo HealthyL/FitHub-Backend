@@ -9,74 +9,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24263e1a-65d2-4c1d-bca7-a9add43b21a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.fithub-backend/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="31f80bcd-bd3e-42c4-97d3-a8c1444e4ba3" name="Changes" comment="backend" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/BruceCipriano" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "bruceAndresCipriano"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HealthyL/FitHub-Backend.git",
-    "accountId": "ded5582b-7300-42d1-98f7-ed9e6fc6a4a1"
-  }
-}]]></component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Bruce/RiderProjects/FitHub-Backend/fithub-backend/Shared/Infraestructure/Persistence/EFC/Configuration/AppDBContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
-  <component name="ProjectId" id="2hgOItDyGyhbuOIGTVYGpRmykzl" />
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2iClrnszmuxCAWxuh9VGcTTSsvi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.fithub-backend: IIS Express.executor": "Run",
+    ".NET Launch Settings Profile.fithub-backend: http.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feature/BruceCipriano",
+    "last_opened_file_path": "C:/Users/jimen/Desktop/FitHub-Backend-bruceeeee/FitHub-Backend/fithub-backend.sln",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "RiderIisExpressOptionsPageId",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\Bruce\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Bruce\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\Bruce\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\jimen\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\jimen\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\jimen\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
-  <component name="RiderProblemsViewState">
-    <option name="proportion" value="0.61415523" />
-  </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.fithub-backend: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.fithub-backend: http">
     <configuration name="fithub-backend: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/fithub-backend/fithub-backend.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -126,20 +114,44 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24263e1a-65d2-4c1d-bca7-a9add43b21a7" name="Changes" comment="" />
-      <created>1718012177813</created>
+      <changelist id="31f80bcd-bd3e-42c4-97d3-a8c1444e4ba3" name="Changes" comment="" />
+      <created>1719002642630</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718012177813</updated>
-      <workItem from="1718012179755" duration="693000" />
+      <updated>1719002642630</updated>
+      <workItem from="1719002645251" duration="328000" />
+      <workItem from="1719021930680" duration="8040000" />
+      <workItem from="1719030714287" duration="1307000" />
+      <workItem from="1719161484594" duration="45000" />
     </task>
+    <task id="LOCAL-00001" summary="backend">
+      <option name="closed" value="true" />
+      <created>1719184362139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719184362139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="backend">
+      <option name="closed" value="true" />
+      <created>1719184417637</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719184417637</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend" />
   </component>
 </project>

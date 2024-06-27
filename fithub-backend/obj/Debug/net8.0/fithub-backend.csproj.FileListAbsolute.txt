@@ -1,33 +1,191 @@
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\appsettings.json
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.exe
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.deps.json
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.runtimeconfig.json
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.dll
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.pdb
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.csproj.AssemblyReference.cache
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.AssemblyInfoInputs.cache
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.AssemblyInfo.cs
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.csproj.CoreCompileInputs.cache
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.sourcelink.json
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.fithub-backend.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.build.fithub-backend.props
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.fithub-backend.props
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.fithub-backend.props
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\scopedcss\bundle\fithub-backend.styles.css
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-b.A2D4672F.Up2Date
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.dll
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\refint\fithub-backend.dll
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.pdb
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.genruntimeconfig.cache
-C:\Users\Bruce\Desktop\Nueva carpeta\FitHub-Backend\fithub-backend\obj\Debug\net8.0\ref\fithub-backend.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\appsettings.json
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\fithub-backend.exe
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\fithub-backend.deps.json
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\fithub-backend.runtimeconfig.json
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\fithub-backend.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\fithub-backend.pdb
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\EntityFrameworkCore.CreatedUpdatedDate.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Humanizer.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.csproj.AssemblyReference.cache
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.AssemblyInfoInputs.cache
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.AssemblyInfo.cs
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.csproj.CoreCompileInputs.cache
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.sourcelink.json
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.fithub-backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.build.fithub-backend.props
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.fithub-backend.props
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.fithub-backend.props
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\scopedcss\bundle\fithub-backend.styles.css
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-b.A2D4672F.Up2Date
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\refint\fithub-backend.dll
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.pdb
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\fithub-backend.genruntimeconfig.cache
+C:\Users\BARBARA\RiderProjects\fithub-backend\fithub-backend\obj\Debug\net8.0\ref\fithub-backend.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\appsettings.json
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\fithub-backend.exe
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\fithub-backend.deps.json
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\fithub-backend.runtimeconfig.json
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\fithub-backend.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\fithub-backend.pdb
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\EntityFrameworkCore.CreatedUpdatedDate.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.csproj.AssemblyReference.cache
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.AssemblyInfoInputs.cache
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.AssemblyInfo.cs
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.csproj.CoreCompileInputs.cache
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.fithub-backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.build.fithub-backend.props
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.fithub-backend.props
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.fithub-backend.props
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\scopedcss\bundle\fithub-backend.styles.css
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-b.A2D4672F.Up2Date
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\refint\fithub-backend.dll
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.pdb
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\fithub-backend.genruntimeconfig.cache
+C:\Users\Personal\Videos\UPC-Projects\Aplicaciones Web\FitHub-Backend-feature-BarbaraQuezada\FitHub-Backend-feature-BarbaraQuezada\fithub-backend\obj\Debug\net8.0\ref\fithub-backend.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\appsettings.json
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.exe
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.deps.json
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.runtimeconfig.json
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\fithub-backend.pdb
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\EntityFrameworkCore.CreatedUpdatedDate.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Humanizer.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.csproj.AssemblyReference.cache
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.AssemblyInfoInputs.cache
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.AssemblyInfo.cs
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.csproj.CoreCompileInputs.cache
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.sourcelink.json
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.fithub-backend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.build.fithub-backend.props
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.fithub-backend.props
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.fithub-backend.props
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\scopedcss\bundle\fithub-backend.styles.css
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-b.A2D4672F.Up2Date
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\refint\fithub-backend.dll
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.pdb
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.genruntimeconfig.cache
+C:\Users\jimen\Desktop\backk\FitHub-Backend\fithub-backend\obj\Debug\net8.0\ref\fithub-backend.dll
