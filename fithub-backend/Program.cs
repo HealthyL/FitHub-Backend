@@ -21,6 +21,11 @@ using fithub_backend.ProductsManagement.Application.Internal.QueryService;
 using fithub_backend.ProductsManagement.Domain.Services;
 using fithub_backend.ProductsManagement.Infraestructure.Persistence.EFC.Repositories;
 using fithub_backend.ProductsManagement.Infraestructure.Repositories;
+using fithub_backend.Profiles.Application.Internal.CommandService;
+using fithub_backend.Profiles.Application.Internal.QueryService;
+using fithub_backend.Profiles.Domain.Repositories;
+using fithub_backend.Profiles.Domain.Services;
+using fithub_backend.Profiles.Infraestructure.Persistence.EFC.Repositories;
 using fithub_backend.RutinesManagement.Application.Internal.CommandService;
 using fithub_backend.RutinesManagement.Application.Internal.QueryService;
 using fithub_backend.RutinesManagement.Domain.Repositories;
@@ -111,6 +116,8 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+// Bounded Context Products
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductCommandService, ProductCommandService>();
 builder.Services.AddScoped<IProductQueryService, ProductQueryService>();
@@ -118,6 +125,7 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryCommandService, CategoryCommandService>();
 builder.Services.AddScoped<ICategoryQueryService, CategoryQueryService>();
 
+//bounded context Rutine
 builder.Services.AddScoped<IExerciseRepository, ExerciseRepository>();
 builder.Services.AddScoped<IExerciseCommandService, ExerciseCommandService>();
 builder.Services.AddScoped<IExerciseQueryService, ExerciseQueryService>();
@@ -125,6 +133,7 @@ builder.Services.AddScoped<IRoutineRepository, RoutineRepository>();
 builder.Services.AddScoped<IRoutineCommandService, RoutineCommandService>();
 builder.Services.AddScoped<IRoutineQueryService, RoutineQueryService>();
 
+//bounded context Nutrition
 builder.Services.AddScoped<INutritionRepository, NutritionRepository>();
 builder.Services.AddScoped<INutritionCommandService, NutritionCommandService>();
 builder.Services.AddScoped<INutritionQueryService, NutritionQueryService>();
@@ -132,6 +141,12 @@ builder.Services.AddScoped<INutritionQueryService, NutritionQueryService>();
 builder.Services.AddScoped<IClassificationRepository, ClassificationRepository>();
 builder.Services.AddScoped<IClassificationCommandService, ClassificationCommandService>();
 builder.Services.AddScoped<IClassificationQueryService, ClassificationQueryService>();
+
+// Profiles Bounded Context Profiles
+builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
+builder.Services.AddScoped<IProfileCommandService, ProfileCommandService>();
+builder.Services.AddScoped<IProfileQueryService, ProfileQueryService>();
+
 
 builder.Services.Configure<TokenSettings>(builder.Configuration.GetSection("TokenSettings"));
 

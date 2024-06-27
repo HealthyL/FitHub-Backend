@@ -4,6 +4,7 @@ using fithub_backend.NutritionManagement.Domain.Model.Aggregates;
 using fithub_backend.NutritionManagement.Domain.Model.Entities;
 using fithub_backend.ProductsManagement.Domain.Model.Aggregates;
 using fithub_backend.ProductsManagement.Domain.Model.Entities;
+using fithub_backend.Profiles.Domain.Model.Aggregates;
 using fithub_backend.RutinesManagement.Domain.Model.Aggregates;
 using fithub_backend.RutinesManagement.Domain.Model.Entities;
 using fithub_backend.Shared.Infraestructure.Persistence.EFC.Configuration.Extensions;
@@ -81,6 +82,28 @@ public class AppDBContext(DbContextOptions options) : DbContext(options)
             .HasForeignKey(t => t.ClassificationId)
             .HasPrincipalKey(t => t.Id);
         
+        //Profile
+        builder.Entity<Profile>().HasKey(p => p.Id);
+        builder.Entity<Profile>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Profile>().OwnsOne(p => p.Name,
+            n =>
+            {
+                n.WithOwner().HasForeignKey("Id");
+                n.Property(p => p.FullName).HasColumnName("FullName");
+            });
+
+        builder.Entity<Profile>().OwnsOne(p => p.Email,
+            e =>
+            {
+                e.WithOwner().HasForeignKey("Id");
+                e.Property(a => a.Address).HasColumnName("EmailAddress");
+            });
+        builder.Entity<Profile>().OwnsOne(p => p.Birthdate,
+            e =>
+            {
+                e.WithOwner().HasForeignKey("Id");
+                e.Property(a => a.Date).HasColumnName("Birthdate");
+            });
         //User
         builder.Entity<User>().HasKey(u => u.Id);
         builder.Entity<User>().Property(u => u.Id).IsRequired().ValueGeneratedOnAdd();
