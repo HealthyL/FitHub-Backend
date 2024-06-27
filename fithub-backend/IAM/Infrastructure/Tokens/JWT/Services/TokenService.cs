@@ -12,14 +12,6 @@ namespace fithub_backend.IAM.Infrastructure.Tokens.JWT.Services;
 public class TokenService(IOptions<TokenSettings> tokenSettings) : ITokenService
 {
     private readonly TokenSettings _tokenSettings = tokenSettings.Value;
-
-    /**
-     * <summary>
-     *     Generate token
-     * </summary>
-     * <param name="user">The user for token generation</param>
-     * <returns>The generated Token</returns>
-     */
     public string GenerateToken(User user)
     {
         var secret = _tokenSettings.Secret;

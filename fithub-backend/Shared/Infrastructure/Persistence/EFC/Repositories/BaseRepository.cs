@@ -1,5 +1,6 @@
 ﻿using fithub_backend.Shared.Domain.Repositories;
 using fithub_backend.Shared.Infraestructure.Persistence.EFC.Configuration;
+using fithub_backend.Shared.Infrastructure.Persistence.EFC.Configuration;
 using Microsoft.EntityFrameworkCore;
 
 namespace fithub_backend.Shared.Infraestructure.Persistence.EFC.Repositories;
