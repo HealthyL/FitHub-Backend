@@ -2,7 +2,7 @@
 using fithub_backend.Shared.Infraestructure.Persistence.EFC.Configuration;
 using fithub_backend.Shared.Infrastructure.Persistence.EFC.Configuration;
 
-namespace fithub_backend.Shared.Infraestructure.Persistence.EFC.Repositories;
+namespace fithub_backend.Shared.Infrastructure.Persistence.EFC.Repositories;
 
 public class UnitOfWork : IUnitOfWork
 {

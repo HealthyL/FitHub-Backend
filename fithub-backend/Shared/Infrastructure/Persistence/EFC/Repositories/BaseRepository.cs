@@ -3,7 +3,7 @@ using fithub_backend.Shared.Infraestructure.Persistence.EFC.Configuration;
 using fithub_backend.Shared.Infrastructure.Persistence.EFC.Configuration;
 using Microsoft.EntityFrameworkCore;
 
-namespace fithub_backend.Shared.Infraestructure.Persistence.EFC.Repositories;
+namespace fithub_backend.Shared.Infrastructure.Persistence.EFC.Repositories;
 
 public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
 {

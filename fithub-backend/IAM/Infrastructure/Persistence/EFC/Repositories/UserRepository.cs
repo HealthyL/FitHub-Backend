@@ -1,6 +1,6 @@
 ﻿using fithub_backend.IAM.Domain.Model.Aggregates;
 using fithub_backend.IAM.Domain.Repositories;
-using fithub_backend.Shared.Infraestructure.Persistence.EFC.Repositories;
+using fithub_backend.Shared.Infrastructure.Persistence.EFC.Repositories;
 using fithub_backend.Shared.Infrastructure.Persistence.EFC.Configuration;
 using Microsoft.EntityFrameworkCore;
 

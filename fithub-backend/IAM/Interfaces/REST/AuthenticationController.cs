@@ -13,13 +13,6 @@ namespace fithub_backend.IAM.Interfaces.REST;
 [Produces(MediaTypeNames.Application.Json)]
 public class AuthenticationController(IUserCommandService userCommandService) : ControllerBase
 {
-    /**
-     * <summary>
-     *     Sign in endpoint. It allows to authenticate a user
-     * </summary>
-     * <param name="signInResource">The sign in resource containing username and password.</param>
-     * <returns>The authenticated user resource, including a JWT token</returns>
-     */
     [HttpPost("sign-in")]
     [AllowAnonymous]
     public async Task<IActionResult> SignIn([FromBody] SignInResource signInResource)

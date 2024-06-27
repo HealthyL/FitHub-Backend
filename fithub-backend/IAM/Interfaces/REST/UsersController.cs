@@ -21,13 +21,6 @@ namespace fithub_backend.IAM.Interfaces.REST;
 [Produces(MediaTypeNames.Application.Json)]
 public class UsersController(IUserQueryService userQueryService) : ControllerBase
 {
-    /**
-     * <summary>
-     *     Get user by id endpoint. It allows to get a user by id
-     * </summary>
-     * <param name="id">The user id</param>
-     * <returns>The user resource</returns>
-     */
     [HttpGet("{id}")]
     public async Task<IActionResult> GetUserById(int id)
     {
@@ -37,12 +30,6 @@ public class UsersController(IUserQueryService userQueryService) : ControllerBas
         return Ok(userResource);
     }
 
-    /**
-     * <summary>
-     *     Get all users endpoint. It allows to get all users
-     * </summary>
-     * <returns>The user resources</returns>
-     */
     [HttpGet]
     public async Task<IActionResult> GetAllUsers()
     {

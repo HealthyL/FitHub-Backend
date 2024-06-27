@@ -1,4 +1,7 @@
 ﻿using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
+using fithub_backend.IAM.Domain.Model.Aggregates;
+using fithub_backend.NutritionManagement.Domain.Model.Aggregates;
+using fithub_backend.NutritionManagement.Domain.Model.Entities;
 using fithub_backend.ProductsManagement.Domain.Model.Aggregates;
 using fithub_backend.ProductsManagement.Domain.Model.Entities;
 using fithub_backend.RutinesManagement.Domain.Model.Aggregates;
@@ -58,8 +61,31 @@ public class AppDBContext(DbContextOptions options) : DbContext(options)
             .WithOne(t => t.Routine)
             .HasForeignKey(t => t.RoutineId)
             .HasPrincipalKey(t => t.Id);
-
-
+        
+        //Nutrition
+        builder.Entity<Nutrition>().ToTable("Nutrition");
+        builder.Entity<Nutrition>().HasKey(f => f.Id);
+        builder.Entity<Nutrition>().Property(f => f.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Nutrition>().Property(f => f.Name).IsRequired();
+        builder.Entity<Nutrition>().Property(f=>f.Description).IsRequired();
+        builder.Entity<Nutrition>().Property(f=>f.PhotoUrl).IsRequired();
+        builder.Entity<Nutrition>().Property(f=>f.ClassificationId).IsRequired();
+        
+        builder.Entity<Classification>().HasKey(f=>f.Id);
+        builder.Entity<Classification>().Property(f=>f.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Classification>().Property(f=>f.Name).IsRequired();
+        
+        builder.Entity<Classification>()
+            .HasMany(c => c.Nutritions)
+            .WithOne(t => t.Classification)
+            .HasForeignKey(t => t.ClassificationId)
+            .HasPrincipalKey(t => t.Id);
+        
+        //User
+        builder.Entity<User>().HasKey(u => u.Id);
+        builder.Entity<User>().Property(u => u.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<User>().Property(u => u.Username).IsRequired();
+        builder.Entity<User>().Property(u => u.PasswordHash).IsRequired();
         
         builder.UseSnakeCaseWithPluralizedTableNamingConvention();
     }

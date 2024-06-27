@@ -32,7 +32,7 @@ public class UserCommandService(
             throw new Exception($"Username {command.Username} is already taken");
 
         var hashedPassword = hashingService.HashPassword(command.Password);
-        var user = new User(command.Username, hashedPassword);
+        var user = new User(command.Username, hashedPassword, command.Email, command.BirthDate, command.Objective);
         try
         {
             await userRepository.AddAsync(user);
