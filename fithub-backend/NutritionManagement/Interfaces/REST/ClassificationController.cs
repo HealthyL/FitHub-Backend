@@ -30,4 +30,12 @@ public class ClassificationController(IClassificationCommandService classificati
         var resource = ClassificationResourceFromEntityAssembler.toResourceFromEntity(classification);
         return CreatedAtAction(nameof(CreateClassification), new { classificationId = resource.Id }, resource);
     }
+    [HttpGet]
+    public async Task<IActionResult> GetAllClassifications()
+    {
+        var getAllClassificationsQuery = new GetAllClassificationsQuery();
+        var classifications = await classificationQueryService.Handle(getAllClassificationsQuery);
+        var resources = classifications.Select(ClassificationResourceFromEntityAssembler.toResourceFromEntity);
+        return Ok(resources);
+    }
 }

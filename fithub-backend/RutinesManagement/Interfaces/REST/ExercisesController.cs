@@ -7,7 +7,7 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace fithub_backend.RutinesManagement.Interfaces.REST;
 [ApiController]
-[Route("api/[controller]")]
+[Route("api/v1/[controller]")]
 public class ExercisesController (IExerciseCommandService exerciseCommandService, IExerciseQueryService exerciseQueryService):ControllerBase
 {
 
