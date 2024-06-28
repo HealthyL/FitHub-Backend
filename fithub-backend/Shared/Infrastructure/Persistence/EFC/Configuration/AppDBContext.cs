@@ -9,6 +9,7 @@ using fithub_backend.Profiles.Domain.Model.Aggregates;
 using fithub_backend.RutinesManagement.Domain.Model.Aggregates;
 using fithub_backend.RutinesManagement.Domain.Model.Entities;
 using fithub_backend.Shared.Infraestructure.Persistence.EFC.Configuration.Extensions;
+using fithub_backend.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 using Microsoft.EntityFrameworkCore;
 namespace fithub_backend.Shared.Infrastructure.Persistence.EFC.Configuration;
 

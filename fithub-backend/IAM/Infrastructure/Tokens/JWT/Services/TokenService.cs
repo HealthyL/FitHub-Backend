@@ -34,8 +34,7 @@ public class TokenService(IOptions<TokenSettings> tokenSettings) : ITokenService
                 new Claim(ClaimTypes.Name, user.Username)
             }),
             Expires = DateTime.UtcNow.AddDays(7),
-            SigningCredentials =
-                new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
         };
         var tokenHandler = new JsonWebTokenHandler();
 

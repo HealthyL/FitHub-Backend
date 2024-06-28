@@ -227,3 +227,7 @@ C:\Proyectos GitHub\fithub-backend\FitHub-Backend\fithub-backend\obj\Debug\net8.
 C:\Proyectos GitHub\fithub-backend\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.pdb
 C:\Proyectos GitHub\fithub-backend\FitHub-Backend\fithub-backend\obj\Debug\net8.0\fithub-backend.genruntimeconfig.cache
 C:\Proyectos GitHub\fithub-backend\FitHub-Backend\fithub-backend\obj\Debug\net8.0\ref\fithub-backend.dll
+C:\Proyectos GitHub\fithub-backend\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Proyectos GitHub\fithub-backend\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Proyectos GitHub\fithub-backend\FitHub-Backend\fithub-backend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Proyectos GitHub\fithub-backend\FitHub-Backend\fithub-backend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
