@@ -146,7 +146,10 @@ builder.Services.AddScoped<IClassificationQueryService, ClassificationQueryServi
 builder.Services.AddScoped<IProfileRepository, ProfileRepository>();
 builder.Services.AddScoped<IProfileCommandService, ProfileCommandService>();
 builder.Services.AddScoped<IProfileQueryService, ProfileQueryService>();
-
+//objectives
+builder.Services.AddScoped<IObjectiveRepository, ObjectiveRepository>();
+builder.Services.AddScoped<IObjectiveCommandService, ObjectiveCommandService>();
+builder.Services.AddScoped<IObjectiveQueryService, ObjectiveQueryService>();
 
 builder.Services.Configure<TokenSettings>(builder.Configuration.GetSection("TokenSettings"));
 

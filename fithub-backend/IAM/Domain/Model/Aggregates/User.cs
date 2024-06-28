@@ -2,7 +2,7 @@
 
 namespace fithub_backend.IAM.Domain.Model.Aggregates;
 
-public class User(string username, string passwordHash, string email, string birthdate, string objective)
+public class User(string username, string email, string birthdate, string objective, string passwordHash)
 {
     public User() : this(string.Empty, string.Empty, string.Empty, string.Empty, string.Empty)
     {

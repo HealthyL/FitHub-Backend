@@ -4,6 +4,7 @@ using fithub_backend.NutritionManagement.Domain.Model.Aggregates;
 using fithub_backend.NutritionManagement.Domain.Model.Entities;
 using fithub_backend.ProductsManagement.Domain.Model.Aggregates;
 using fithub_backend.ProductsManagement.Domain.Model.Entities;
+using fithub_backend.Profiles.Domain.Model;
 using fithub_backend.Profiles.Domain.Model.Aggregates;
 using fithub_backend.RutinesManagement.Domain.Model.Aggregates;
 using fithub_backend.RutinesManagement.Domain.Model.Entities;
@@ -104,10 +105,24 @@ public class AppDBContext(DbContextOptions options) : DbContext(options)
                 e.WithOwner().HasForeignKey("Id");
                 e.Property(a => a.Date).HasColumnName("Birthdate");
             });
+        //objective
+        builder.Entity<Objective>().ToTable("Objective");
+        builder.Entity<Objective>().HasKey(f => f.Id);
+        builder.Entity<Objective>().Property(f => f.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Objective>().Property(f => f.Name).IsRequired();
+        
+        builder.Entity<Objective>()
+            .HasMany(c => c.Profiles)
+            .WithOne(t => t.Objective)
+            .HasForeignKey(t => t.ObjectiveId)
+            .HasPrincipalKey(t => t.Id);
         //User
         builder.Entity<User>().HasKey(u => u.Id);
         builder.Entity<User>().Property(u => u.Id).IsRequired().ValueGeneratedOnAdd();
         builder.Entity<User>().Property(u => u.Username).IsRequired();
+        builder.Entity<User>().Property(u => u.Email).IsRequired();
+        builder.Entity<User>().Property(u => u.Birthdate).IsRequired();
+        builder.Entity<User>().Property(u=>u.Objective).IsRequired();
         builder.Entity<User>().Property(u => u.PasswordHash).IsRequired();
         
         builder.UseSnakeCaseWithPluralizedTableNamingConvention();

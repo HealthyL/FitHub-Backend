@@ -9,6 +9,8 @@ public partial class Profile
     public PersonName Name { get; private set; }
     public EmailAddress Email { get; private set; }
     public BirthDate Birthdate { get; private set; }
+    public Objective Objective { get; private set; }
+    public int ObjectiveId { get; private set; }
 
     public string FullName => Name.FullName;
     public string EmailAddress => Email.Address;
