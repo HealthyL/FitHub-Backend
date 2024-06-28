@@ -1,19 +1,29 @@
-﻿using System.Security.Claims;
-using System.Text;
+﻿
 using fithub_backend.IAM.Application.Internal.OutboundServices;
 using fithub_backend.IAM.Domain.Model.Aggregates;
 using fithub_backend.IAM.Infrastructure.Tokens.JWT.Configuration;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.JsonWebTokens;
-using Microsoft.IdentityModel.Tokens;
 
 namespace fithub_backend.IAM.Infrastructure.Tokens.JWT.Services;
+using Microsoft.IdentityModel.JsonWebTokens;
+using System.Security.Claims;
+using System.Text;
+using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 
 public class TokenService(IOptions<TokenSettings> tokenSettings) : ITokenService
 {
+    
     private readonly TokenSettings _tokenSettings = tokenSettings.Value;
+
     public string GenerateToken(User user)
     {
+        Console.WriteLine(tokenSettings.Value.Secret);
+        
+        if (tokenSettings == null || tokenSettings.Value == null || tokenSettings.Value.Secret == null)
+        {
+            throw new ArgumentNullException(nameof(tokenSettings));
+        }
+
         var secret = _tokenSettings.Secret;
         var key = Encoding.ASCII.GetBytes(secret);
         var tokenDescriptor = new SecurityTokenDescriptor
@@ -33,20 +43,10 @@ public class TokenService(IOptions<TokenSettings> tokenSettings) : ITokenService
         return token;
     }
 
-    /**
-     * <summary>
-     *     VerifyPassword token
-     * </summary>
-     * <param name="token">The token to validate</param>
-     * <returns>The user id if the token is valid, null otherwise</returns>
-     */
     public async Task<int?> ValidateToken(string token)
     {
-        // If token is null or empty
         if (string.IsNullOrEmpty(token))
-            // Return null 
             return null;
-        // Otherwise, perform validation
         var tokenHandler = new JsonWebTokenHandler();
         var key = Encoding.ASCII.GetBytes(_tokenSettings.Secret);
         try
@@ -57,7 +57,6 @@ public class TokenService(IOptions<TokenSettings> tokenSettings) : ITokenService
                 IssuerSigningKey = new SymmetricSecurityKey(key),
                 ValidateIssuer = false,
                 ValidateAudience = false,
-                // Expiration without delay
                 ClockSkew = TimeSpan.Zero
             });
 

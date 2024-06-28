@@ -21,6 +21,9 @@ public class UserCommandService(
         if (user == null || !hashingService.VerifyPassword(command.Password, user.PasswordHash))
             throw new Exception("Invalid username or password");
 
+        if (user.Username == null || user.PasswordHash == null)
+            throw new Exception("Username or password hash is null");
+
         var token = tokenService.GenerateToken(user);
 
         return (user, token);
@@ -32,7 +35,7 @@ public class UserCommandService(
             throw new Exception($"Username {command.Username} is already taken");
 
         var hashedPassword = hashingService.HashPassword(command.Password);
-        var user = new User(command.Username, command.Email, command.BirthDate, command.Objective, hashedPassword);
+        var user = new User(command.Username,command.Email,command.BirthDate,command.Objective ,hashedPassword);
         try
         {
             await userRepository.AddAsync(user);
